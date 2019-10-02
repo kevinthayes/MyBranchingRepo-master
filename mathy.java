@@ -231,7 +231,11 @@ public class mathy
         return array;
 
    }
+	public int foo(int num)
+	{
 
+		return 0;
+	}
 	public void testingbranch (int x)
 	{
 		System.out.print(x);
