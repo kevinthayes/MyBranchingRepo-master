@@ -231,7 +231,19 @@ public class mathy
         return array;
 
    }
+	public int foo(int num)
+	{
+		int x;
 
+		for (int i = 0; i<10;i++
+		{
+			x = i * num;
+
+		}
+
+		return num;
+
+	}
 	public void testingbranch (int x)
 	{
 		System.out.print(x);
