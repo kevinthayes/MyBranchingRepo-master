@@ -234,7 +234,17 @@ public class mathy
 	public int foo(int num)
 	{
 
-		return 0;
+		int x;
+
+		for (int i = 0; i<10;i++
+		{
+			x = i * num;
+
+		}
+
+		return num;
+
+
 	}
 	public void testingbranch (int x)
 	{
