@@ -245,11 +245,14 @@ public class mathy
 			return num;
 
 
+
 	}
 	public int conflictCode(int num)
 	{
 		//p2
 		for (int i = 0; i< 10;i+=2)
+
+
 		{
 			num = num*i + 31 * 37;//adding some sixy/sexy prime numbers
 
@@ -258,6 +261,7 @@ public class mathy
 		return num;
 
 	}
+
 	public void testingbranch (int x)
 	{
 		System.out.print(x);
