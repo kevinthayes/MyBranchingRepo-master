@@ -232,27 +232,36 @@ public class mathy
 
    }
 	public int foo(int num)
-	{
-
-		int x;
-
-		for (int i = 0; i<10;i++)
 		{
-			x = i * num;
 
-		}
+			int x;
 
-		return num;
+			for (int i = 0; i<10;i++)
+			{
+				x = i * num;
+
+			}
+
+			return num;
+
 
 
 	}
 	public int conflictCode(int num)
 	{
+		//p2
+		for (int i = 0; i< 10;i+=2)
 
 
-		//p1
-		return 0;
+		{
+			num = num*i + 31 * 37;//adding some sixy/sexy prime numbers
+
+		}
+
+		return num;
+
 	}
+
 	public void testingbranch (int x)
 	{
 		System.out.print(x);
